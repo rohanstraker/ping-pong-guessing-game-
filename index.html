@@ -5,22 +5,33 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <title>Ping Pong</title>
-    <title></title>
+    <title>Game Time</title>
   </head>
   <body>
       <div class="container">
-        <h1>PING-PONG</h1>
+        <h1>You Thought We Were Done</h1>
 
-        <form id="Ping-Pong ">
+        <form id="thinktank">
           <div class="form-group">
-            <label for="number">Ping Pong will count up to your number from 1 with the following exceptions:</label>
-            <input id="ping" type="number">
-            <!--<input id="pong" type="number">  I need to pus some p tags in this area to identify the diffrent comments about ping pong
-            <input id="pingpong" type="number">-->
+        <br>
+        <label for="number">This think tank will count up to your number from 1 with the following exceptions:</label>
+      </br>
+      <br><p>please enter your number here any number you want!</p>
+      <input id="number" type="text">
+        <button type="submit" class="btn">now click here!</button>
+    </br>
+    <br>
+    <div class="result">
+      <ol>
+      <li>Numbers divisible by 3 become "ha"</li>
+      <li>Numbers divisible by 5 become "haha"</li>
+      <li>Numbers divisible by 3 and 5 become "lol"</li>
+      </ol>
+    </div>
+    </br>
           </div>
 
-          <button type="submit" class="btn">Find out!</button>
+
         </form>
 
         <div id="result">
